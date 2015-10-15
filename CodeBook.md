@@ -2,14 +2,14 @@
 # Code Book #
 #############
 
-From the 66 std() and mean() variables in the train and test data sets located in the UCI Machine Learning Repositorty link in the ReadMe file, the average value for each was caluclated by user and by activity to create the tidy data set, TidyDataSet.txt.  The variables names outlined in the UCI repo were modified to include the prefix 'Mean-' to reflect this new average variable value for each activity and subject.  These resulting final 66 average variables are denoted below along with the two additional variables, SubjectID and activityName.
+From the 66 std() and mean() variables in the train and test data sets located in the UCI Machine Learning Repositorty link in the ReadMe file, the average value for each was caluclated by user and by activity to create the tidy data set, TidyDataSet.txt.  The variables names outlined in the UCI repo were modified to include the prefix 'Mean-' to reflect this new average variable value for each activity and subject.  These resulting final 66 average variables are denoted below along with the two additional variables, SubjectID and activityName. For a detailed breakdown of the original variables, please see the UCI repo ReadMe and additional files by following the link in ReadMe text.
 
 SubjectID
-	Identifies the subject who performed the activity for each window sample. 
-	Its range is from 1 to 30.
+	- Identifies the subject who performed the activity for each window sample. 
+	- Its range is from 1 to 30.
 
 activityName
-	The name of the activity being performed by the Subject at the time of the sample
+	- The name of the activity being performed by the Subject at the time of the sample
 
 Mean-tBodyAcc-mean()-X
 
